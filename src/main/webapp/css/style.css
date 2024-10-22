@@ -1,0 +1,70 @@
+.header {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+#result_table {
+    border-collapse: collapse; /* объединяем границы ячеек */
+    width: 100%; /* ширина таблицы */
+}
+
+button:hover {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+input[type='text'] {
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+}
+
+
+.checkboxes input[type='checkbox']:checked + label {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ddd; /* граница таблицы */
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-size: 18px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.header p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WEB-LAB1</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+<header class="header">
+  <h1>Камянецький Никита Владимирович</h1>
+  <p>Группа: P3308</p>
+  <p>Вариант: 339055</p>
+</header>
+
+<table class="layout-table">
+  <tr>
+    <td class="image_data">
+      <img src="img/areas.png" alt="Описание изображения" class="image" />
+    </td>
+    <td class="form-cell">
+      <div class="checkboxes">
+        <label><input type="checkbox" name="option-m5" value="-5" /> -5</label>
+        <label><input type="checkbox" name="option-m4" value="-4" /> -4</label>
+        <label><input type="checkbox" name="option-m3" value="-3" /> -3</label>
+        <label><input type="checkbox" name="option-m2" value="-2" /> -2</label>
+        <label><input type="checkbox" name="option-m1" value="-1" /> -1</label>
+        <label><input type="checkbox" name="option0" value="0" /> 0</label>
+        <label><input type="checkbox" name="option1" value="1" /> 1</label>
+        <label><input type="checkbox" name="option2" value="2" /> 2</label>
+        <label><input type="checkbox" name="option3" value="3" /> 3</label>
+      </div>
+
+      <div class="inputs">
+        <input type="text" placeholder="{-3...5} Y" id="input_y" />
+        <input type="text" placeholder="{1...4} R" id="input_r" />
+      </div>
+
+      <button id="submit-button">Отправить</button>
+    </td>
+  </tr>
+</table>
+
+<table name="result">
+  <thead>
+  <tr>
+    <th>X</th>
+    <th>Y</th>
+    <th>R</th>
+    <th>Время выполнения</th>
+    <th>Время компьютера</th>
+    <th>Результат</th>
+  </tr>
+  </thead>
+  <tbody id="result_table"></tbody>
+</table>
+</body>
+</html>
